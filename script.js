@@ -8,7 +8,7 @@ const input = document.querySelector('.search-box input');
 
 //busca dados da API
 const fetchWeatherData = () => {
-    const APIKey = 'd5e6f5fa893dae2131970f18aee1ba77';
+    const APIKey = 'SEU_TOKEN_AQUI'; //https://home.openweathermap.org/api_keys
     const city = input.value;
 
     if(city == '') 
